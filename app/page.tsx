@@ -382,7 +382,7 @@ style={{
               
 
 {selectedParticipant && (
-  <div className="absolute left-1/2 top-1/2 z-20 w-[85%] max-w-sm -translate-x-1/2 -translate-y-1/2 rounded-3xl border border-white/80 bg-white/90 p-6 shadow-xl backdrop-blur-md">
+  <div className="absolute left-1/2 top-1/2 z-20 w-[85%] max-w-sm max-h-[90%] -translate-x-1/2 -translate-y-1/2 overflow-y-auto overscroll-contain rounded-3xl border border-white/80 bg-white/90 p-6 shadow-xl backdrop-blur-md">
 
     <div className="mb-4 flex items-center justify-between">
       <h3 className="text-lg font-semibold text-gray-800">
